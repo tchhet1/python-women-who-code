@@ -16,6 +16,7 @@ def factorial1(n):
     if(n == 0 or n ==1):
         return 1
     else:
+        print("n: ", n)
         return n * factorial1(n - 1)
     
 result = factorial1(5)
